@@ -1,18 +1,19 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
+        "name": "Ashish Deshpande",
+        "label": "Front-End Developer",
+        "picture": "https://raw.githubusercontent.com/ashishd751/react-ultimate-resume/0281d47cb9d191279b2d4a9c523209f453bfafac/public/avatar.svg",
+        "email": "ashishd751@gmail.com",
+        "phone": "+91-7276463883",
         "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "subtitle": "Senior Software Engineer @ Amdocs",
+        "summary": "Web developer with over 4.5 years of experience in edge-cutting web technologies like React, Node and Angular",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "23, Jaydeo Nagar Society",
+            "postalCode": "411030",
+            "city": "Pune",
+            "countryCode": "India",
+            "region": "Maharashtra"
         },
         "profiles": [
             {
@@ -106,37 +107,49 @@
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Angular",
+            "name": "Redux",
+            "level": "Master",
+            "value": 70,
+            "keywords": ["Store", "Flux", "Reducer"]
+        },
+        {
+            "name": "ES6",
             "level": "Master",
             "value": 80,
+            "keywords": ["Javascript"]
+        },
+        {
+            "name": "Javascript",
+            "level": "Master",
+            "value": 90,
+            "keywords": ["ES5", "Dynamic"]
+        },
+        {
+            "name": "Webpack",
+            "level": "Master",
+            "value": 30,
+            "keywords": ["Bundle", "Minify", "Chunks"]
+        },
+        {
+            "name": "Angular",
+            "level": "Master",
+            "value": 30,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
             "name": "NodeJS",
             "level": "Master",
-            "value": 40,
+            "value": 30,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Gmail",
-            "level": "Master",
+            "name": "Typescript",
+            "level": "Amateur",
             "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["Strict Typing"]
         }
     ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }, { "language": "Italien", "value": 15, "fluency": "Native speaker" } ],
+    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }, { "language": "Hindi", "value": 90, "fluency": "Native speaker" }, { "language": "Marathi", "value": 85, "fluency": "Native speaker" } ],
     "interests": [
         {
             "name": "France europe gif by nike football",
@@ -241,8 +254,8 @@
     ],
     "specific": {
         "basics": {
-            "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "visaSponsorship": false,
+            "personalDescription": "A quintessential web developer having great passion towards developing and designing highly interactive web pages using state-of-the-art technologies like React and Node."
         },
         "dreamJob": {
             "locations": [
@@ -255,20 +268,20 @@
         "currentJob": {
             "issues": { "boring_management": true, "boring_team": true }
         },
-        "education": { "studiesLevel": 5 },
+        "education": { "studiesLevel": 4 },
         "work": {
             "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
+            "codingYears": 5.5,
+            "codingReason": "A deep-rooted sentiment to solve real-world predicaments digitally.",
             "searchState": "activelySearching",
             "experienceYears": 0,
-            "codeExperienceYears": 1,
-            "otherExperienceYears": 1
+            "codeExperienceYears": 4.5,
+            "otherExperienceYears": 0
         },
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
         },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "Deno, Vue, ML and of course AI."
     },
     "resumeCustomization": {
         "imageHeader": {
@@ -277,19 +290,58 @@
         },
         "cardsOrder": [
             { "type": "basics", "variant": 4 },
-            { "type": "projects", "variant": 4 },
             { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
             { "type": "experiences", "variant": 4 },
+            { "type": "projects", "variant": 4 },
             { "type": "studies", "variant": 4 },
-            { "type": "gifs", "variant": 0 },
-            { "type": "interestedBy", "variant": 3 },
-            { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 }
+            { "type": "language", "variant": 4 }
         ],
         "fields": {
             "work": {
                 "customDateFormat": "YYYY"
+            }
+        },
+        "theme": {
+            "palette": {
+              "primary": {
+                "50": "#f1edeb",
+                "100": "#e4dcd7",
+                "200": "#c9b9af",
+                "300": "#ad9588",
+                "400": "#927260",
+                "500": "#774f38",
+                "600": "#5f3f2d",
+                "700": "#472f22",
+                "800": "#302016",
+                "900": "#18100b",
+                "contrastDefaultColor": "light"
+              },
+              "secondary": {
+                "50": "#fcf4f2",
+                "100": "#f9e8e4",
+                "200": "#f3d2c9",
+                "300": "#ecbbaf",
+                "400": "#e6a594",
+                "500": "#e08e79",
+                "600": "#b37261",
+                "700": "#865549",
+                "800": "#5a3930",
+                "900": "#2d1c18",
+                "contrastDefaultColor": "light"
+              },
+              "tertiary": {
+                "50": "#fefbf7",
+                "100": "#fcf6ef",
+                "200": "#f9eedf",
+                "300": "#f7e5cf",
+                "400": "#f4ddbf",
+                "500": "#f1d4af",
+                "600": "#c1aa8c",
+                "700": "#917f69",
+                "800": "#605546",
+                "900": "#302a23",
+                "contrastDefaultColor": "light"
+              }
             }
         }
     }

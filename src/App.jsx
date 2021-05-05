@@ -10,7 +10,7 @@ import { Button } from '@welovedevs/ui';
 
 import JsonStub from './data/json_stub.json';
 import DeveloperProfile from './package';
-import { ReactComponent as SaveIcon } from './package/assets/icons/drop_file.svg';
+import { ReactComponent as SaveIcon } from './package/assets/icons/download.svg';
 
 import { styles } from './app_styles';
 
@@ -22,7 +22,8 @@ const mergeFunction = (objValue, srcValue) => {
     return undefined;
 };
 
-const mode = process.env.REACT_APP_MODE || 'edit';
+// const mode = process.env.REACT_APP_MODE || 'edit';
+const mode = 'prod';
 
 function App() {
     const classes = useStyles();
@@ -64,7 +65,7 @@ function App() {
                         'https://firebasestorage.googleapis.com/v0/b/jechercheundev.appspot.com/o/technologies%2Ftechnologies_list.json?alt=media&token=459028ba-d9bc-4480-a3c4-88633afab7e2'
                 },
                 // dismissFooter : true
-                // showContactInfos: true,
+                showContactInfos: true,
                 // maxSkills: 6,
                 customization,
                 disableSortableExperience: false,
@@ -72,7 +73,7 @@ function App() {
             }}
             additionalNodes={{
                 banner: {
-                    actionsButtons: mode === 'edit' && (
+                    actionsButtons: (
                         <Button variant="outlined" onClick={handleClick} color={'light'}>
                             <SaveIcon className={classes.saveIcon} />
                             <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />

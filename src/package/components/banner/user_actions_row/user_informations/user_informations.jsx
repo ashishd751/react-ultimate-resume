@@ -23,7 +23,7 @@ export const UserInformations = () => {
     const { data } = useContext(DeveloperProfileContext);
     const [additionalNodes] = useAdditionalNodes('banner.userInformations', null);
     const [isEditing] = useIsEditing();
-    const [showContactInformations] = useOptions('showContactInfos', false);
+    const [showContactInformations] = useOptions('showContactInfos', true);
     const contactInformations = useMemo(
         () =>
             Object.entries(CONTACT_INFOS_DATA).reduce(
@@ -60,7 +60,7 @@ export const UserInformations = () => {
                     }}
                     component="h4"
                 >
-                    {data.basics?.summary}
+                    {data.basics?.subtitle}
                 </Typography>
                 {showContactInformations && (isEditing || hasContactInformations) && (
                     <ContactInfos contactInformations={contactInformations} />

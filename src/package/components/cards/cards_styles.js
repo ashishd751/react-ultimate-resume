@@ -11,7 +11,7 @@ export const styles = (theme) => {
     return {
         container: {
             width: '100%',
-            marginTop: -(spacing * 12),
+            marginTop: -(spacing * 18),
             display: 'flex',
             justifyContent: 'center',
             position: 'relative',

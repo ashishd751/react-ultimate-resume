@@ -23,9 +23,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/welovedevs/react-ultimate-resume.git"
+        "url": "git+https://github.com/ashishd751/react-ultimate-resume"
     },
-    "author": "WeLoveDevs.com",
+    "author": "Ashish Deshpande",
     "license": "AGPLv3",
     "peerDependencies": {
         "@material-ui/core": "^4.11.0",
@@ -133,11 +133,6 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "npm run test-build --scripts-prepend-node-path && CI=true yarn test && lint-staged"
-        }
     },
     "lint-staged": {
         "*.+(js|jsx|scss)": [

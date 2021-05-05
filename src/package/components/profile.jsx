@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useCallback, useMemo, useReducer, useState } from 'react';
 import { injectIntl, IntlProvider } from 'react-intl';
 import { createUseStyles, ThemeProvider } from 'react-jss';
