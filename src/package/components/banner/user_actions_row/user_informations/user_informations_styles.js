@@ -21,7 +21,8 @@ export const styles = (theme) => {
         },
         name: {
             extend: 'text',
-            fontWeight: 700
+            fontWeight: 500,
+            fontSize: '35px'
         },
         description: {
             extend: 'text',

@@ -21,7 +21,7 @@ export const styles = (theme) => {
             display: 'flex',
             alignItems: 'center',
             flexWrap: 'wrap',
-            justifyContent: 'space-between',
+            justifyContent: 'center',
             marginTop: spacing * 10,
             [QUERY_BETWEEN_SMALL_EXTRA_SMALL]: {
                 flexDirection: 'column'

@@ -74,7 +74,7 @@ function App() {
             additionalNodes={{
                 banner: {
                     actionsButtons: (
-                        <a href="https://raw.githubusercontent.com/ashishd751/react-ultimate-resume/develop/public/Resume.pdf" download="Ashish_Deshpande_Resume.pdf">
+                        <a href="https://raw.githubusercontent.com/ashishd751/react-ultimate-resume/develop/public/Ashish_Deshpande_Resume.pdf" download="Ashish_Deshpande_Resume.pdf">
                             <Button variant="outlined" color={'light'}>
                                 <SaveIcon className={classes.saveIcon} />
                                 <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />

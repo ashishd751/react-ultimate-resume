@@ -28,33 +28,6 @@ const FooterComponent = () => {
     if (useSmallLayout) {
         return (
             <div className={cn(classes.container, useSmallLayout && classes.smallLayoutContainer)}>
-                <div className={classes.wldLogoGithubLogoContainer}>
-                    <a
-                        className={classes.logoLink}
-                        href="https://welovedevs.com"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                    >
-                        <Logo className={classes.logo} />
-                    </a>
-                    <Tooltip
-                        title={
-                            <FormattedMessage
-                                id="Footer.github.tooltip"
-                                defaultMessage="View repo!"
-                            />
-                        }
-                    >
-                        <a
-                            className={classes.githubLink}
-                            href="https://github.com/ashishd751/react-ultimate-resume"
-                            target="_bank"
-                            rel="noreferer noopener"
-                        >
-                            <GithubLogo className={classes.githubLogo} />
-                        </a>
-                    </Tooltip>
-                </div>
                 <ShareLinks useSmallLayout />
             </div>
         );
@@ -62,24 +35,7 @@ const FooterComponent = () => {
 
     return (
         <div className={classes.container}>
-            <a className={classes.logoLink} href="https://welovedevs.com" target="_blank" rel="noreferrer noopener">
-                <Logo className={classes.logo} />
-            </a>
             <ShareLinks />
-            <Tooltip
-                title={
-                    <FormattedMessage id="Footer.github.tooltip" defaultMessage="View repo!" />
-                }
-            >
-                <a
-                    className={classes.githubLink}
-                    href="https://github.com/ashishd751/react-ultimate-resume"
-                    target="_bank"
-                    rel="noreferer noopener"
-                >
-                    <GithubLogo className={classes.githubLogo} />
-                </a>
-            </Tooltip>
         </div>
     );
 };

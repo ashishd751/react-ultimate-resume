@@ -11,8 +11,8 @@ import { styles } from './profile_card_button_styles';
 import { useCardVariant } from '../../../hooks/profile_card_hooks/use_card_variant';
 import { DEFAULT_SPRING_TYPE as spring } from '../../../../utils/framer_motion/common_types/spring_type';
 
-const ProfileCardButtonComponent = injectSheet(styles)(({ overrideColor, classes, children, ...other }) => (
-    <motion.div className={classes.container} whileHover="hover">
+const ProfileCardButtonComponent = injectSheet(styles)(({ overrideColor, classes, children, onClick , ...other }) => (
+    <motion.div className={classes.container} whileHover="hover" onClick={onClick}>
         <Button
             classes={{ container: classes.button, typography: classes.typography }}
             size="small"

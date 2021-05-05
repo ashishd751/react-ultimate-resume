@@ -1,11 +1,12 @@
 import React, { memo } from 'react';
 
 import cn from 'classnames';
-import { createUseStyles } from 'react-jss';
+import { createUseStyles, useTheme } from 'react-jss';
 import { FormattedMessage } from 'react-intl';
 import { AnimatePresence, motion } from 'framer-motion';
 
 import { Typography } from '@welovedevs/ui';
+import { useMediaQuery } from '@material-ui/core';
 
 import { UserInformations } from './user_actions_row/user_informations/user_informations';
 import { SocialActions } from './user_actions_row/social_actions/social_actions';
@@ -26,6 +27,7 @@ const useStyles = createUseStyles(styles);
 
 const BannerComponent = ({ customizationOptions, onCustomizationChanged }) => {
     const classes = useStyles();
+    const { screenSizes } = useTheme();
     const [mode] = useMode();
     const [actionsButtons] = useAdditionalNodes('banner.actionsButtons', null);
     const [globalReceivedBannerClasses = {}] = useReceivedGlobalClasses('banner');
@@ -33,6 +35,11 @@ const BannerComponent = ({ customizationOptions, onCustomizationChanged }) => {
 
     const imageInformations = customizationOptions?.imageHeader;
     const bannerImageCredits = customizationOptions?.imageHeader?.credits;
+
+    const useSmallLayout = useMediaQuery(
+        `(max-width: ${screenSizes.medium - (screenSizes.medium - screenSizes.small) / 2}px)`,
+        { defaultMatches: true }
+    );
 
     return (
         <div className={cn(classes.container, globalReceivedBannerClasses.container)}>
@@ -56,11 +63,11 @@ const BannerComponent = ({ customizationOptions, onCustomizationChanged }) => {
             </AnimatePresence>
             <div className={cn(classes.content, globalReceivedBannerClasses.content)}>
                 <UserInformations />
-                <SocialActions>
+                {!useSmallLayout && <SocialActions>
                     {actionsButtons}
                     {mode === 'edit' && <EditButton />}
                     {mode === 'edit' && <CustomizeButton customizationOptions={customizationOptions} />}
-                </SocialActions>
+                </SocialActions>}
             </div>
             {bannerImageCredits?.name && (
                 <Typography
