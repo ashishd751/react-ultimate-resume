@@ -74,10 +74,12 @@ function App() {
             additionalNodes={{
                 banner: {
                     actionsButtons: (
-                        <Button variant="outlined" onClick={handleClick} color={'light'}>
-                            <SaveIcon className={classes.saveIcon} />
-                            <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
-                        </Button>
+                        <a href="https://raw.githubusercontent.com/ashishd751/react-ultimate-resume/develop/public/Resume.pdf" download="Ashish_Deshpande_Resume.pdf">
+                            <Button variant="outlined" color={'light'}>
+                                <SaveIcon className={classes.saveIcon} />
+                                <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
+                            </Button>
+                        </a>
                     )
                 }
             }}
