@@ -5,7 +5,7 @@
         "picture": "https://raw.githubusercontent.com/ashishd751/react-ultimate-resume/0281d47cb9d191279b2d4a9c523209f453bfafac/public/avatar.svg",
         "email": "ashishd751@gmail.com",
         "phone": "+91-7276463883",
-        "website": "http://johndoe.com",
+        "website": "http://ashish-portfolio.com",
         "subtitle": "Senior Software Engineer @ Amdocs",
         "summary": "Web Developer with over 4.5 years of experience in edge-cutting web technologies like React, Node and Angular",
         "location": {
@@ -18,38 +18,52 @@
         "profiles": [
             {
                 "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
+                "username": "ashishd751",
+                "url": "http://twitter.com/ashishd751"
             }
         ]
     },
     "work": [
         {
-            "name": "Samsung Engineering",
-            "position": "3D Cad Engineer",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "Amdocs",
+            "position": "Senior Software Engineer",
+            "website": "http://amdocs.com",
+            "startDate": "2019-08-05",
+            "summary": "Created independent widgets using React-Redux, implemted storybook components and drove migration of API sdk to Typescript",
+            "location": "Pune",
+            "highlights": [
+                "Created independent widgets using React, so that they are generic and can be used across the application",
+                "Wrote complex logic to inherit and extend Core base behavior so as to avoid rewriting code",
+                "Implemted storybook components and drove migration of API sdk to Typescript"
+            ]
         },
         {
-            "name": "What a nice office",
-            "position": "President",
+            "name": "Hashmap Inc",
+            "position": "UI Developer",
             "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "startDate": "2018-08-20",
+            "endDate": "2019-07-27",
+            "summary": "Single-handedly designed fluidic and responsive web pages to characterise and render data in tabular formats using Angular and Bootstrap",
+            "location": "Pune",
+            "highlights": [
+                "Single-handedly designed fluidic and responsive web pages to characterise and render data in tabular formats using Angular and Bootstrap",
+                "Developed and published an NPM module to render excel sheets onto web pages (react-excel-renderer)",
+                "Implemented Web-HDFS API to develop an application to upload any file onto HDFS using React as the UI library"
+            ]
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "Xoriant Corporation",
+            "position": "Software Engineer",
+            "website": "http://xoriant.com",
+            "startDate": "2016-08-01",
+            "endDate": "2018-08-17",
+            "summary": "Improved overall performance of application through code splitting, chunking and tree shaking using Webpack in application, drove migration of Webpack from 1 to 3",
+            "location": "Pune",
+            "highlights": [
+                "Implemented a generic-ajax module that is used across the entire application to establish ajax calls",
+                "Improved overall performance of application through code splitting, chunking and tree shaking using Webpack in application",
+                "Drove migration of Webpack from 1 to 3"
+            ]
         }
     ],
     "volunteer": [
@@ -64,30 +78,21 @@
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        },
-        {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "University of Pune",
+            "area": "Computer Science",
+            "studyType": "Engineering",
+            "startDate": "2012-05-01",
+            "endDate": "2016-05-01",
+            "gpa": "7.2",
+            "courses": []
         }
     ],
     "awards": [
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
+            "title": "PSO Transformer",
+            "date": "2020-08-15",
+            "awarder": "Amdocs",
+            "summary": "Awarded for taking special efforts in desgining generic implementations"
         }
     ],
     "publications": [
@@ -182,74 +187,69 @@
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
     "projects": [
         {
-            "index": 5,
-            "date": { "month": 11, "year": 2019 },
-            "description": "Moteur de recherche via le nom de films réalisée avec ReactJs:\nRequête à l'Api rest avec Fetch, utilisation des hooks.\n",
+            "index": 6,
+            "date": { "month": 6, "year": 2016 },
+            "description": "An a learning application that is currently deployed in an Australian University that digitizes every form of teaching and eradicates use of book/paper/pen",
             "id": "7f1f4257-e5db-477d-aa5f-ababe0ab0b12",
-            "images": [{ "url": "https://cdn.filestackcontent.com/aBOkTTkCQ66VOHUy0q8L" }],
-            "link": "https://lovely-movie.netlify.app/",
-            "name": "Lovely Movie",
-            "endDate": "2019-12-01"
+            "images": [],
+            "name": "School In a Box",
+            "endDate": "2015-06-01"
         },
         {
-            "index": 2,
-            "date": { "month": 0, "year": 2020 },
-            "description": "Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
+            "index": 5,
+            "date": { "month": 10, "year": 2017 },
+            "description": "An Angular based SPA that deals with simple day-to-day activities of employee",
             "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
-            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
-            "link": "https://diary-todo.netlify.app/",
-            "name": "Journal d'une Todo",
-            "endDate": "2020-01-01"
+            "images": [],
+            "name": "Employee Management Portal",
+            "endDate": "2017-11-01"
         },
         {
             "index": 4,
-            "date": { "month": 5, "year": 2020 },
-            "description": "Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
+            "date": { "month": 12, "year": 2017 },
+            "description": "A react-native application that measures the number of hours spent in office and notifies user after mandatory hours are completed",
             "id": "af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
-            "images": [{ "url": "https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI" }],
-            "link": "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
-            "name": "Charlie's Angels blog",
-            "endDate": "2020-06-01"
+            "images": [],
+            "name": "Office Hours",
+            "endDate": "2018-02-01"
         },
         {
             "index": 3,
-            "date": { "month": 5, "year": 2020 },
-            "description": "** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
+            "date": { "month": 3, "year": 2018 },
+            "description": "A web application that works as a one-stop-shop to a user going on a holiday using Angular 2",
             "id": "c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
-            "images": [{ "url": "https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba" }],
-            "link": "https://appli-meteo.netlify.app/",
-            "name": "Application Météo",
-            "endDate": "2020-06-01"
+            "images": [],
+            "link": "https://github.com/ashishd751/Holidify-UI",
+            "name": "Holidify",
+            "endDate": "2018-05-01"
+        },
+        {
+            "index": 2,
+            "date": { "month": 10, "year": 2018 },
+            "description": "Developed both front-end(React) and back-end(Node) of a webapp that can be used to upload files to hdfs",
+            "id": "dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
+            "images": [],
+            "name": "hdfs-uploader",
+            "endDate": "2018-12-01"
         },
         {
             "index": 1,
-            "date": { "month": 7, "year": 2020 },
-            "description": "Premières armes avec Angular et Typescript :\nMise en place d'un environnement Angular, développement d'une authentification avec Firebase, gestion des formulaires, utilisation d'observable avec RxJs.\n",
+            "date": { "month": 6, "year": 2018 },
+            "description": "Developed a node module that allows user with appropriate credentials to ssh to a machine and execute a shell script remotely",
             "id": "d9f7ca32-a40a-418e-affb-317bfb4f520e",
-            "images": [{ "url": "https://cdn.filestackcontent.com/NVOhKNFQR9OQ3jtkIyHi" }],
-            "link": "https://my-connected-library.netlify.app/",
-            "name": "Librairie Connectée",
-            "endDate": "2020-08-01"
-        },
-        {
-            "index": 6,
-            "date": { "month": 4, "year": 2019 },
-            "description": "Moteur de recherche basé sur le jeu World of Warcraft, premiers pas avec ReatJs.\nRequête à l'API Raider.io avec Axios.",
-            "id": "dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
-            "images": [{ "url": "https://cdn.filestackcontent.com/FSysoX0ATvqy2BFvLF21" }],
-            "link": "https://wow-search-engine.netlify.app/",
-            "name": "WoW Search",
-            "endDate": "2019-05-01"
-        },
+            "images": [],
+            "name": "remote-shell-file-executor",
+            "endDate": "2018-09-01"
+        },        
         {
             "index": 0,
-            "date": { "month": 6, "year": 2020 },
-            "description": "Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
+            "date": { "month": 1, "year": 2019 },
+            "description": "An npm module to render and display excel sheets on web pages",
             "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
-            "images": [{ "url": "https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5" }],
-            "link": "https://your-todos-list.herokuapp.com/",
-            "name": "Your Todo List",
-            "endDate": "2020-07-01"
+            "images": [{ "url": "https://raw.githubusercontent.com/ashishd751/excel-renderer-demo/master/public/DemoSample.gif" }],
+            "link": "https://github.com/ashishd751/react-excel-renderer",
+            "name": "react-excel-renderer",
+            "endDate": "2019-02-01"
         }
     ],
     "specific": {
