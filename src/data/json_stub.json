@@ -29,7 +29,7 @@
             "position": "Senior Software Engineer",
             "website": "http://amdocs.com",
             "startDate": "2019-08-05",
-            "summary": "Created independent widgets using React-Redux, implemted storybook components and drove migration of API sdk to Typescript",
+            "summary": "Created independent widgets using React-Redux, implemented storybook components and drove migration of API sdk to Typescript",
             "location": "Pune",
             "highlights": [
                 "Created independent widgets using React, so that they are generic and can be used across the application",
